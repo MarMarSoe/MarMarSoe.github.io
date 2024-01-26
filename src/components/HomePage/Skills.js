@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center mt-10 mx-auto">
+    <div className="flex flex-col justify-center mt-5 mx-auto">
       <div className="flex justify-start font-bold text-orange-600">
         <div className="flex justify-center  w-[550px]">Skills</div>
       </div>

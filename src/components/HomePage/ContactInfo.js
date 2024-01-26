@@ -40,7 +40,7 @@ const ContactInfo = () => {
             variant="text"
             color="primary"
             startIcon={<LinkedInIcon />}
-            href="linkedin.com/in/mar-mar-soe-a63792185"
+            href="https://linkedin.com/in/mar-mar-soe-a63792185"
           >
             LinkedIn
           </Button>
@@ -53,9 +53,11 @@ const ContactInfo = () => {
             GitHub
           </Button>
         </div>
-        <div className="flex flex-col justify-center items-center w-[800px] bg-orange-200">
-          <h2>Contact Me</h2>
-          <p>marmarsoe1995@gmail.com</p>
+        <div className="flex flex-col justify-center items-center self-center w-[800px] h-[150px] bg-orange-200 rounded-md">
+          <h2 className="text-orange-500 font-semibold">Contact Me</h2>
+          <p className="font-light underline underline-offset-4">
+            marmarsoe1995@gmail.com
+          </p>
         </div>
       </div>
       <div></div>

@@ -1,9 +1,10 @@
 import Button from "@mui/material/Button";
 import Profile from "../../assets/profile.jpg";
+import HomePageCss from "./HomePage.module.css";
 
 const Content = (props) => {
   return (
-    <div className="flex flex-row justify-around mt-20 mx-auto">
+    <div className="flex flex-row justify-around mt-10 mx-auto">
       <div className="flex justify-center">
         <div className="flex flex-col justify-center items-start w-[400px] h-[400px] text-lg">
           <div className="font-bold text-xl">
@@ -33,7 +34,7 @@ const Content = (props) => {
         <img
           src={Profile}
           alt="my-profile"
-          className="w-[400px] h-[400px] rounded-lg"
+          className={`w-[400px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
         />
       </div>
     </div>
