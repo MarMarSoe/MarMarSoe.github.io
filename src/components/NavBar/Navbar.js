@@ -14,12 +14,9 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <Link to={About} className="self-center hover:text-orange-500">
+            <a href="about.asp" className="self-center hover:text-orange-500">
               About
-            </Link>
-            {/* <a href={`${About}`} className="self-center hover:text-orange-500">
-              About
-            </a> */}
+            </a>
           </li>
           <li>
             <a href="work.asp" className=" hover:text-orange-500">
