@@ -7,38 +7,38 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col justify-evenly mt-10 mx-auto">
-      <div className="flex justify-start font-bold text-orange-600">
-        <div className="flex justify-center  w-[550px]">Find Me On</div>
+    <div className="container flex flex-col mt-10 mx-auto">
+      <div className="flex justify-start text-orange-600 font-bold text-lg">
+        Find on Me
       </div>
-      <div className="flex flex-row  justify-between w-[1000px] mt-10 ml-[250px]">
-        <div className="flex flex-col items-start text-slate-700 w-[300px]">
+      <div className="flex flex-row mt-5">
+        <div className="flex flex-col justify-center items-start text-slate-700 ">
           <Button
             variant="text"
-            color="primary"
             startIcon={<FacebookIcon />}
+            color="inherit"
             href="https://www.facebook.com/profile.php?id=100010863332986"
           >
             Facebook
           </Button>
           <Button
             variant="text"
-            color="warning"
             startIcon={<InstagramIcon />}
             href="https://www.instagram.com/lady_mar_mar/"
+            color="inherit"
           >
             Instagram
           </Button>
           <Button
             variant="text"
-            color="success"
+            color="inherit"
             startIcon={<ChatBubbleOutlineIcon />}
           >
             Line
           </Button>
           <Button
             variant="text"
-            color="primary"
+            color="inherit"
             startIcon={<LinkedInIcon />}
             href="https://linkedin.com/in/mar-mar-soe-a63792185"
           >
@@ -53,8 +53,8 @@ const ContactInfo = () => {
             GitHub
           </Button>
         </div>
-        <div className="flex flex-col justify-center items-center self-center w-[800px] h-[150px] bg-orange-200 rounded-md">
-          <h2 className="text-orange-500 font-semibold">Contact Me</h2>
+        <div className="flex flex-col justify-center items-center w-full h-[170px] bg-orange-200 rounded-md ml-8">
+          <h2 className="text-orange-500 font-semibold text-lg">Contact Me</h2>
           <p className="font-light underline underline-offset-4">
             marmarsoe1995@gmail.com
           </p>

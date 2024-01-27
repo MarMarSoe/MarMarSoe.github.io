@@ -1,25 +1,51 @@
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center mt-5 mx-auto">
-      <div className="flex justify-start font-bold text-orange-600">
-        <div className="flex justify-center  w-[550px]">Skills</div>
+    <div className="container flex flex-col mt-10 mx-auto">
+      {/* <div className="flex justify-center mt-5"> */}
+      <div className="flex justify-start items-center  text-orange-600 font-bold text-lg">
+        Skills
       </div>
-      <div className="flex mx-auto mt-5">
-        <div className="grid grid-cols-4 gap-x-80 gap-y-10 place-content-stretch h-44 text-gray-600">
-          <div className="">HTML</div>
-          <div className="">CSS</div>
-          <div className="">Javascript</div>
-          <div className="">Jquery</div>
-          <div className="">Bootstrap</div>
-          <div className="">Tailwindcss</div>
-          <div className="">React</div>
-          <div className="">Java</div>
-          <div className="">Python</div>
-          <div className="">VBA</div>
-          <div className="">MySQL</div>
-          <div className="">PostgreSQL</div>
+      <div className="flex justify-start mt-5">
+        <div className="grid grid-cols-4 gap-x-56 gap-y-3 place-content-stretch h-44 font-light ">
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            HTML
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            CSS
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Javascript
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Jquery
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Bootstrap
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Tailwindcss
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            React
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Java
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            Python
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            VBA
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            MySQL
+          </div>
+          <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
+            PostgreSQL
+          </div>
         </div>
       </div>
+      {/* </div> */}
     </div>
   );
 };
