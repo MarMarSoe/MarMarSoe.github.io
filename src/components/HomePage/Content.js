@@ -5,7 +5,7 @@ import HomePageCss from "./HomePage.module.css";
 const Content = (props) => {
   return (
     <div className="container flex flex-row justify-between mt-10 mx-auto">
-      <div className="flex flex-col justify-start items-start w-[400px] h-[400px] text-lg">
+      <div className="flex flex-col justify-start items-start self-center w-[400px] text-lg">
         <div className="font-bold text-xl">
           Hi there! <span className="text-orange-600">Minglabar </span>
         </div>
@@ -48,7 +48,7 @@ const Content = (props) => {
         <img
           src={Profile}
           alt="my-profile"
-          className={`w-[400px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
+          className={`w-[500px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
         />
       </div>
     </div>

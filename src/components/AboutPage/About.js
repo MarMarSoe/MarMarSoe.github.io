@@ -1,11 +1,12 @@
 import { Button } from "@mui/material";
 import NavBar from "../NavBar/Navbar";
+import AboutMe from "./AboutMe";
 
 const About = () => {
   return (
     <div>
       <NavBar />
-      <Button>About me</Button>
+      <AboutMe />
     </div>
   );
 };

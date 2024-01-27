@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="flex justify-start items-center text-orange-600 font-bold text-lg">
         Project
       </div>
-      <div className="flex flex-row items-center mt-5">
+      <div className="flex flex-row items-center mt-5 gap-x-8">
         <div className="flex items-start">
           <img
             src={Pokemon1}
@@ -15,7 +15,7 @@ const Projects = () => {
             className="w-[200px] h-[150px] rounded-lg border p-3"
           />
         </div>
-        <div className="flex flex-col justify-start items-start ml-8">
+        <div className="flex flex-col justify-start items-start">
           <div className="font-bold text-orange-600">PokeDev</div>
           <div className="text-grey-500 font-light">React && Tailwindcss</div>
           <div className="text-wrap w-[700px]">
@@ -23,7 +23,7 @@ const Projects = () => {
             Tailwindcss, Pokemon API. React hooks (useState, useContext,
             createContext) were used.
           </div>
-          <div className="mt-3 flex justify-between w-[210px]">
+          <div className="mt-3 flex flex-row gap-x-2">
             <Button
               variant="outlined"
               href="https://snazzy-croissant-7c932a.netlify.app/"

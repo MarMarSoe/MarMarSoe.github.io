@@ -11,7 +11,7 @@ const ContactInfo = () => {
       <div className="flex justify-start text-orange-600 font-bold text-lg">
         Find on Me
       </div>
-      <div className="flex flex-row mt-5">
+      <div className="flex flex-row mt-5 gap-x-8">
         <div className="flex flex-col justify-center items-start text-slate-700 ">
           <Button
             variant="text"
@@ -53,7 +53,7 @@ const ContactInfo = () => {
             GitHub
           </Button>
         </div>
-        <div className="flex flex-col justify-center items-center w-full h-[170px] bg-orange-200 rounded-md ml-8">
+        <div className="flex flex-col justify-center items-center w-full h-[170px] bg-orange-200 rounded-md">
           <h2 className="text-orange-500 font-semibold text-lg">Contact Me</h2>
           <p className="font-light underline underline-offset-4">
             marmarsoe1995@gmail.com

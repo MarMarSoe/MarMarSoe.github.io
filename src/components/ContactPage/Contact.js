@@ -1,11 +1,11 @@
-import { Button } from "@mui/material";
 import NavBar from "../NavBar/Navbar";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
     <div>
-      <NavBar/>
-      <Button>Contact Me</Button>
+      <NavBar />
+      <ContactForm />
     </div>
   );
 };
