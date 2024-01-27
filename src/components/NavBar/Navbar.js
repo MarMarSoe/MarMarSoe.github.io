@@ -1,6 +1,5 @@
 import About from "../AboutPage/About";
-import { Link } from "@mui/material";
-
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="container  flex flex-row justify-between mx-auto">
@@ -10,33 +9,36 @@ const NavBar = () => {
       <div className="p-2 flex items-center text-center  font-light">
         <ul className="list-none">
           <li className="float-right">
-            <a
-              href="contact.asp"
+            <Link
+              to="/contact"
               className="text-center block p-5 hover:text-orange-500"
             >
               Contact
-            </a>
+            </Link>
           </li>
           <li className="float-right">
-            <a
-              href="about.asp"
+            <Link
+              to="/about"
               className="text-center block p-5 hover:text-orange-500"
             >
               About
-            </a>
+            </Link>
           </li>
           <li className="float-right">
-            <a
-              href="work.asp"
+            <Link
+              to="/work"
               className="text-center block p-5 hover:text-orange-500"
             >
               Work
-            </a>
+            </Link>
           </li>
           <li className="float-right">
-            <a href="/" className="text-center block p-5 hover:text-orange-500">
+            <Link
+              to="/"
+              className="text-center block p-5 hover:text-orange-500"
+            >
               Home
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

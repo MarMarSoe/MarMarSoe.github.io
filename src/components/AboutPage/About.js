@@ -1,5 +1,13 @@
+import { Button } from "@mui/material";
+import NavBar from "../NavBar/Navbar";
+
 const About = () => {
-  <div>ABOUT ME</div>;
+  return (
+    <div>
+      <NavBar />
+      <Button>About me</Button>
+    </div>
+  );
 };
 
 export default About;
