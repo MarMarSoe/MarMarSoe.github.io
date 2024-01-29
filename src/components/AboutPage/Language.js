@@ -1,5 +1,3 @@
-import { Divider } from "@mui/material";
-
 const Language = () => {
   return (
     <div className="container mx-auto mt-5">
@@ -8,7 +6,6 @@ const Language = () => {
       </div>
 
       <div className="flex flex-col justify-center self-center gap-y-5 mt-3">
-        {/* <Divider orientation="vertical" flexItem></Divider> */}
         <div className="flex flex-row gap-x-10">
           <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-[300px]">
             Burmese

@@ -1,4 +1,3 @@
-import About from "../AboutPage/About";
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (

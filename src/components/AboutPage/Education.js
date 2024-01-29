@@ -1,5 +1,3 @@
-import { Divider } from "@mui/material";
-
 const Education = () => {
   return (
     <div className="container mx-auto mt-5">
