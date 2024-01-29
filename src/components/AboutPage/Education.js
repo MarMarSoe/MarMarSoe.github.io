@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="container mx-auto mt-5">
+    <div className="container mx-auto mt-28">
       <div className="font-bold text-orange-600 text-lg">
         Education & Certifaction
       </div>

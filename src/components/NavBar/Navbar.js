@@ -25,14 +25,6 @@ const NavBar = () => {
           </li>
           <li className="float-right">
             <Link
-              to="/work"
-              className="text-center block p-5 hover:text-orange-500"
-            >
-              Work
-            </Link>
-          </li>
-          <li className="float-right">
-            <Link
               to="/"
               className="text-center block p-5 hover:text-orange-500"
             >

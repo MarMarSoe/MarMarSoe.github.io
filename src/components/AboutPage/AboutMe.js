@@ -2,7 +2,7 @@ import aboutPhoto from "../../assets/about-photo.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="container flex flex-row justify-between mx-auto">
+    <div className="container flex flex-row justify-between mx-auto mt-20">
       <div className="flex flex-col justify-start w-[700px]">
         <div className="font-bold text-orange-600 text-lg">About Me</div>
         <div className="mt-3 font-light w-full text-justify">

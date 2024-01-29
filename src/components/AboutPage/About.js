@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/Navbar";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
@@ -12,6 +13,7 @@ const About = () => {
       <Experiences />
       <Education />
       <Language />
+      <Footer />
     </div>
   );
 };
