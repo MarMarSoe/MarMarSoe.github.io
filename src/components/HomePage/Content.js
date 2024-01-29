@@ -1,5 +1,5 @@
 import Button from "@mui/material/Button";
-import Profile from "../../assets/profile.jpg";
+import Profile from "../../assets/profile.png";
 import HomePageCss from "./HomePage.module.css";
 
 const Content = (props) => {
@@ -48,7 +48,7 @@ const Content = (props) => {
         <img
           src={Profile}
           alt="my-profile"
-          className={`w-[500px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
+          className={`w-full h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
         />
       </div>
     </div>
