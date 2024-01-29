@@ -101,9 +101,8 @@ const Projects = () => {
               <div>Figma</div>
             </div>
             <div className="text-wrap w-[700px] mt-2">
-              This project is a practice project that was used React JS,
-              Tailwindcss, Pokemon API. React hooks (useState, useContext,
-              createContext) were used.
+              This project is creating UI/UX Design for my portfolio website.
+              You can able to browse from the link.
             </div>
             <div className="mt-3 flex flex-row gap-x-2">
               <Button

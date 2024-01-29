@@ -40,11 +40,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -71,11 +71,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -102,11 +102,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -133,11 +133,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -164,11 +164,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -195,11 +195,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
@@ -226,11 +226,11 @@ const Experiences = () => {
                     consectetur.
                   </div>
                   <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FBAD88", padding:2}} />
-                  <Chip label="HTML" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="CSS" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Javascript" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
-                  <Chip label="Bootstrap" size="small" sx={{backgroundColor:"#FFB18C", padding:2}}/>
+                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
+                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
                   </div>
                 </div>
               </div>
