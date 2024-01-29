@@ -1,12 +1,12 @@
 const Skills = () => {
   return (
-    <div className="container flex flex-col mt-10 mx-auto">
+    <div className="container flex flex-col mt-28 mx-auto">
       {/* <div className="flex justify-center mt-5"> */}
       <div className="flex justify-start items-center  text-orange-600 font-bold text-lg">
         Skills
       </div>
       <div className="flex justify-start mt-5">
-        <div className="grid grid-cols-4 gap-x-56 gap-y-3 place-content-stretch h-44 font-light ">
+        <div className="grid grid-cols-4 gap-x-56 gap-y-3 place-content-stretch h-44 font-light text-center ">
           <div className="transition duration-3 hover:text-orange-400 hover:scale-110 hover:font-bold">
             HTML
           </div>

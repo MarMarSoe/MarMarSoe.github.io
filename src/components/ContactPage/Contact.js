@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/Navbar";
 import ContactForm from "./ContactForm";
 
@@ -6,6 +7,7 @@ const Contact = () => {
     <div>
       <NavBar />
       <ContactForm />
+      <Footer />
     </div>
   );
 };

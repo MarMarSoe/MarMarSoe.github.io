@@ -11,7 +11,6 @@ import Contact from "./components/ContactPage/Contact";
 
 function App() {
   return (
-    <>
       <Router>
         <Routes>
           <Route exact path="/about" element={<About />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
-    </>
   );
 }
 

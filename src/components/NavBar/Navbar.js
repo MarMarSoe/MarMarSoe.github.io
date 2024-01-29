@@ -1,4 +1,3 @@
-import About from "../AboutPage/About";
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
@@ -22,14 +21,6 @@ const NavBar = () => {
               className="text-center block p-5 hover:text-orange-500"
             >
               About
-            </Link>
-          </li>
-          <li className="float-right">
-            <Link
-              to="/work"
-              className="text-center block p-5 hover:text-orange-500"
-            >
-              Work
             </Link>
           </li>
           <li className="float-right">

@@ -3,6 +3,7 @@ import NavBar from "../NavBar/Navbar";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactInfo from "./ContactInfo";
+import Footer from "../Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Skills />
       <Projects />
       <ContactInfo />
+      <Footer />
     </div>
   );
 };
