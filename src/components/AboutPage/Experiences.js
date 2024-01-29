@@ -8,7 +8,7 @@ import Chip from "@mui/material/Chip";
 
 const Experiences = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-10">
       <div className="font-bold text-orange-600 text-lg">Experiences</div>
       <div className="flex justify-center">
         <Timeline

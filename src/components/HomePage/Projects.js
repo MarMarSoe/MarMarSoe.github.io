@@ -12,12 +12,15 @@ const Projects = () => {
           <img
             src={Pokemon1}
             alt="my-profile"
-            className="w-[200px] h-[150px] rounded-lg border p-3"
+            className="w-[220px] h-[180px] border p-3 hover:border-orange-300 hover:scale-105 transition duration-300"
           />
         </div>
         <div className="flex flex-col justify-start items-start">
-          <div className="font-bold text-orange-600">PokeDev</div>
-          <div className="text-grey-500 font-light">React && Tailwindcss</div>
+          <div className="font-bold text-orange-600 text-lg">PokeDev</div>
+          <div className="flex flex-row gap-x-2 text-grey-500 font-light">
+            <div>React</div>
+            <div>Tailwindcss</div>
+          </div>
           <div className="text-wrap w-[700px]">
             This project is a practice project that was used React JS,
             Tailwindcss, Pokemon API. React hooks (useState, useContext,
