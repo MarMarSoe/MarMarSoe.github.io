@@ -1,4 +1,4 @@
-import Pokemon1 from "../../assets/pokemon.png";
+import Pokemon from "../../assets/pokemon.png";
 import Button from "@mui/material/Button";
 
 const Projects = () => {
@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="flex flex-row items-center mt-5 gap-x-8">
         <div className="flex items-start">
           <img
-            src={Pokemon1}
+            src={Pokemon}
             alt="my-profile"
             className="w-[200px] h-[150px] rounded-lg border p-3"
           />
