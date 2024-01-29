@@ -48,7 +48,7 @@ const Content = (props) => {
         <img
           src={Profile}
           alt="my-profile"
-          className={`w-full h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
+          className={`w-[600px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
         />
       </div>
     </div>
