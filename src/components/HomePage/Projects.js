@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 
 const Projects = () => {
   return (
-    <div className="container flex flex-col mt-10 mx-auto">
+    <div className="container flex flex-col mt-20 mx-auto">
       <div className="flex justify-start items-center text-orange-600 font-bold text-lg">
         Project
       </div>
