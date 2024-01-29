@@ -37,8 +37,7 @@ const AboutMe = () => {
       <div className="flex justify-center">
         <img
           src={aboutPhoto}
-          className="w-[330px] h-[520px]"
-          alt="about-photo"
+          className="w-[330px] h-[520px]" alt="aboutme"
         />
       </div>
     </div>
