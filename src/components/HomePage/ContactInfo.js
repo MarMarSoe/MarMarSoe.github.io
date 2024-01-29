@@ -7,7 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ContactInfo = () => {
   return (
-    <div className="container flex flex-col mt-10 mx-auto">
+    <div className="container flex flex-col mt-28 mx-auto">
       <div className="flex justify-start text-orange-600 font-bold text-lg">
         Find on Me
       </div>

@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="container flex flex-col mt-20 mx-auto">
+    <div className="container flex flex-col mt-28 mx-auto">
       {/* <div className="flex justify-center mt-5"> */}
       <div className="flex justify-start items-center  text-orange-600 font-bold text-lg">
         Skills
