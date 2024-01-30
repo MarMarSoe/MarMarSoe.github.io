@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="flex flex-row gap-x-2">
               <Button
                 variant="outlined"
-                href="https://snazzy-croissant-7c932a.netlify.app/"
+                href="https://pokemon-with-react.netlify.app/"
                 color="warning"
                 sx={{
                   fontSize: 16,
