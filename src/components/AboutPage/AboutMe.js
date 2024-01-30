@@ -4,8 +4,8 @@ const AboutMe = () => {
   return (
     <div className="container flex flex-row justify-between mx-auto mt-20">
       <div className="flex flex-col justify-start w-[700px]">
-        <div className="font-bold text-orange-600 text-lg">About Me</div>
-        <div className="mt-3 font-light w-full text-justify">
+        <div className="font-semibold text-orange-600 text-3xl">About Me</div>
+        <div className="mt-11 font-light w-full text-justify text-sm">
           Ea exercitation consectetur cillum voluptate ipsum mollit pariatur.
           Eiusmod nostrud tempor sit consectetur. Et nostrud culpa deserunt
           veniam sit elit sit pariatur consequat laborum duis cupidatat ea. Id
@@ -35,10 +35,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <img
-          src={aboutPhoto}
-          className="w-[330px] h-[520px]" alt="aboutme"
-        />
+        <img src={aboutPhoto} className="w-[419px] h-[546px]" alt="aboutme" />
       </div>
     </div>
   );

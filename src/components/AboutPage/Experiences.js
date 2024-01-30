@@ -9,8 +9,8 @@ import Chip from "@mui/material/Chip";
 const Experiences = () => {
   return (
     <div className="container mx-auto mt-28">
-      <div className="font-bold text-orange-600 text-lg">Experiences</div>
-      <div className="flex justify-center">
+      <div className="font-semibold text-orange-600 text-3xl">Experiences</div>
+      <div className="flex justify-center mt-11">
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
@@ -28,8 +28,8 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">2022年04月 ～ 現在</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">TuplOS Project</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">TuplOS Project</div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -39,12 +39,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -59,8 +99,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">Web Application Development</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    Web Application Development
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -70,12 +112,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -90,8 +172,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">5ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">PC予約管理システム</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    PC予約管理システム
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -101,12 +185,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -121,8 +245,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">11ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">ファイバーケーブルを 構築材料情報管理開 発</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    ファイバーケーブルを 構築材料情報管理開 発
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -132,12 +258,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -152,8 +318,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">4ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">Chikyoku Tool 開発</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    Chikyoku Tool 開発
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -163,12 +331,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -183,8 +391,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">ビル管理システム</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    ビル管理システム
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -194,12 +404,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -214,8 +464,10 @@ const Experiences = () => {
               <div className="flex flex-row gap-x-10">
                 <div className="w-[450px]">2ヶ月</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500">社内のホームページ開 発</div>
-                  <div className="text-justify">
+                  <div className="text-orange-500 text-2xl">
+                    社内のホームページ開 発
+                  </div>
+                  <div className="mt-1 text-justify text-sm">
                     Ea exercitation consectetur cillum voluptate ipsum mollit
                     pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
                     culpa deserunt veniam sit elit sit pariatur consequat
@@ -225,12 +477,52 @@ const Experiences = () => {
                     reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
                     consectetur.
                   </div>
-                  <div className="flex flex-row gap-x-2 mt-2">
-                  <Chip label="PYTHON" size="small" sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}} />
-                  <Chip label="HTML" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="CSS" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Javascript" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
-                  <Chip label="Bootstrap" size="small"  sx={{backgroundColor:"#FFCDB4", padding:2, color:"#FF8D57"}}/>
+                  <div className="flex flex-row gap-x-2 mt-3">
+                    <Chip
+                      label="PYTHON"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="HTML"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="CSS"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Javascript"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
