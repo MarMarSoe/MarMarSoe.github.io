@@ -7,35 +7,28 @@ const Education = () => {
 
       <div className="flex flex-col justify-center self-center gap-y-5 mt-11">
         {/* <Divider orientation="vertical" flexItem></Divider> */}
-        <div className="flex flex-row gap-x-10">
-          <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-[300px] text-lg">
-            B.C.Sc Computer Science
-          </div>
-          <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-full text-lg">
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-2xl">B.C.Sc Computer Science</div>
+          <div className="text-orange-400 text-2xl">
             Computer University (2012 Feb ~ 2017 Dec)
           </div>
         </div>
-        <div className="flex flex-row gap-x-10">
-          <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-[300px] text-lg">
-            Professional Diploma in Software Engineering
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-2xl">
+            Professional Diploma In Software Engineering Course
           </div>
-          <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-full text-lg">
-            Ea exercitation consectetur cillum voluptate ipsum mollit pariatur.
-            Eiusmod nostrud tempor sit consectetur. Et nostrud culpa deserunt
-            veniam sit elit sit pariatur consequat laborum duis cupidatat ea. Id
-            excepteur occaecat ex incididunt fugiat nostrud minim occaecat.
-            Lorem veniam cillum dolor est aliqua incididunt ex tempor eu
-            reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-            consectetur.
+          <div className="text-orange-400 text-2xl">
+            Information and Communication Technology Training Institute (2018
+            May ~ 2018 Oct)
           </div>
         </div>
-        <div className="flex flex-row gap-x-10">
-          <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-[300px] text-lg">
-            Google Cloud Certified
-          </div>
-          {/* <div className="hover:text-orange-500 hover:scale-100 transition duration-300 w-full">
-            2012 Feb ~ 2017 Dec
-          </div> */}
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-2xl">Associate Cloud Engineer</div>
+          <div className="text-orange-400 text-2xl">2019 Mar 8</div>
+        </div>
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-2xl">JLPT N3 Certified</div>
+          <div className="text-orange-400 text-2xl">2022 Dec</div>
         </div>
       </div>
     </div>

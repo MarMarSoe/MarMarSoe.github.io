@@ -20,24 +20,19 @@ const Experiences = () => {
           }}
         >
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="flex flex-row gap-x-10">
+              <div className="flex flex-row">
                 <div className="w-[450px]">2022年04月 ～ 現在</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">TuplOS Project</div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    ネトワクの異常なログファイルを解析するシステムです。
+                    そのシステムにはログファイルをチケットファイルといいます。
+                    そのチケットファイルをシステムにアプロードして解析したら、詳細結果を発生します。どうして問題が起こってるかを詳しく見える結果です。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -91,26 +86,19 @@ const Experiences = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">6ヶ月</div>
+                <div className="w-[260px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     Web Application Development
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    事故監視システム(事故かんし）です。例えば　マップの上から東京エリアのどうこかに事故が起ってるのを監視できるシステムです。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -164,26 +152,20 @@ const Experiences = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">5ヶ月</div>
+                <div className="w-[260px]">5ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     PC予約管理システム
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    それは名前の通りPC予約を管理するシステムです。
+                    PCの情報とか借りる本人の情報とかを登録して予約するのを管理するシステムです。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -237,26 +219,19 @@ const Experiences = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">11ヶ月</div>
+                <div className="w-[260px]">11ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
-                    ファイバーケーブルを 構築材料情報管理開 発
+                    ファイバーケーブルを 構築材料情報管理開発
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    ファイバーケーブルを構築する際の材料情報の管理システムです。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -310,26 +285,19 @@ const Experiences = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">4ヶ月</div>
+                <div className="w-[260px]">4ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     Chikyoku Tool 開発
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    置局を建築ための事前計算ツールです。旧システムのいくつかのツールを一つのツールとして総合しました。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -383,26 +351,19 @@ const Experiences = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ height: 150 }}>
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">6ヶ月</div>
+                <div className="w-[260px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     ビル管理システム
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    ビル管理システムです。建物の電力、空調、　照明　などが安全で効率的に運用できるかを監視するシステムです。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
@@ -462,20 +423,13 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[450px]">2ヶ月</div>
+                <div className="w-[260px]">2ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     社内のホームページ開 発
                   </div>
                   <div className="mt-1 text-justify text-sm">
-                    Ea exercitation consectetur cillum voluptate ipsum mollit
-                    pariatur. Eiusmod nostrud tempor sit consectetur. Et nostrud
-                    culpa deserunt veniam sit elit sit pariatur consequat
-                    laborum duis cupidatat ea. Id excepteur occaecat ex
-                    incididunt fugiat nostrud minim occaecat. Lorem veniam
-                    cillum dolor est aliqua incididunt ex tempor eu
-                    reprehenderit culpa proident. Do fugiat ea cupidatat aute ex
-                    consectetur.
+                    ホームページ開発
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
