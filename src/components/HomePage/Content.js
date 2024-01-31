@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import Profile from "../../assets/profile.png";
 import HomePageCss from "./HomePage.module.css";
+import Resume from "../../../src/resume/MARMARSOE/履歴書―マーマ―ソ―.pdf";
 
 const Content = (props) => {
   return (
@@ -22,6 +23,7 @@ const Content = (props) => {
           <Button
             variant="contained"
             color="warning"
+            href={Resume}
             sx={{
               fontSize: 24,
               fontWeight: 400,

@@ -83,7 +83,7 @@ const Experiences = () => {
                       }}
                     />
                     <Chip
-                      label="Mongo DB"
+                      label="MongoDB"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",

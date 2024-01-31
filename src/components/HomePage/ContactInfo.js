@@ -35,6 +35,7 @@ const ContactInfo = () => {
             variant="text"
             color="inherit"
             startIcon={<ChatBubbleOutlineIcon />}
+            sx={{ fontSize: 20 }}
           >
             Line
           </Button>
