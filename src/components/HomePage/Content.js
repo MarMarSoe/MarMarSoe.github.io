@@ -2,6 +2,7 @@ import Button from "@mui/material/Button";
 import Profile from "../../assets/profile.png";
 import HomePageCss from "./HomePage.module.css";
 import Resume from "../../../src/resume/MARMARSOE/履歴書―マーマ―ソ―.pdf";
+import { Link } from "react-router-dom";
 
 const Content = (props) => {
   return (
@@ -34,19 +35,21 @@ const Content = (props) => {
           >
             Resume
           </Button>
-          <Button
-            variant="outlined"
-            color="warning"
-            sx={{
-              fontSize: 24,
-              fontWeight: 400,
-              textTransform: "capitalize",
-              width: 181,
-              height: 64,
-            }}
-          >
-            About
-          </Button>
+          <Link to="/about">
+            <Button
+              variant="outlined"
+              color="warning"
+              sx={{
+                fontSize: 24,
+                fontWeight: 400,
+                textTransform: "capitalize",
+                width: 181,
+                height: 64,
+              }}
+            >
+              About
+            </Button>
+          </Link>
         </div>
       </div>
 
