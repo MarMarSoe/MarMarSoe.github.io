@@ -15,7 +15,7 @@ const Projects = () => {
             <img
               src={Pokemon}
               alt="my-profile"
-              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300"
+              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300 object-contain"
             />
           </div>
           <div className="flex flex-col justify-start items-start">
@@ -66,7 +66,7 @@ const Projects = () => {
             <img
               src={Portfolio}
               alt="my-profile"
-              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300"
+              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300 object-contain"
             />
             <p className={`text-orange-600 font-bold ribbon ${Styles.ribbon}`}>
               This site
@@ -107,7 +107,7 @@ const Projects = () => {
             <img
               src={Portfolio}
               alt="my-profile"
-              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300"
+              className="w-[354px] h-[294px] border hover:border-orange-300 hover:scale-105 transition duration-300 object-contain"
             />
           </div>
           <div className="flex flex-col justify-start items-start">

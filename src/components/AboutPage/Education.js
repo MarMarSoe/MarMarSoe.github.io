@@ -23,7 +23,9 @@ const Education = () => {
           </div>
         </div>
         <div className="flex flex-col gap-y-2">
-          <div className="font-semibold text-2xl">Associate Cloud Engineer</div>
+          <div className="font-semibold text-2xl">
+            Associate Cloud Engineer (Google Cloud Certified)
+          </div>
           <div className="text-orange-400 text-2xl">2019 Mar 8</div>
         </div>
         <div className="flex flex-col gap-y-2">

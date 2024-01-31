@@ -28,7 +28,9 @@ const Experiences = () => {
               <div className="flex flex-row">
                 <div className="w-[450px]">2022年04月 ～ 現在</div>
                 <div className="flex flex-col justify-start">
-                  <div className="text-orange-500 text-2xl">TuplOS Project</div>
+                  <div className="text-orange-500 text-2xl">
+                    Network Ticket Analyzer
+                  </div>
                   <div className="mt-1 text-justify text-sm">
                     ネトワクの異常なログファイルを解析するシステムです。
                     そのシステムにはログファイルをチケットファイルといいます。
@@ -80,6 +82,15 @@ const Experiences = () => {
                         color: "#FF8D57",
                       }}
                     />
+                    <Chip
+                      label="Mongo DB"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -95,21 +106,12 @@ const Experiences = () => {
                 <div className="w-[260px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
-                    Web Application Development
+                    Incidence Monitoring System
                   </div>
                   <div className="mt-1 text-justify text-sm">
                     事故監視システム(事故かんし）です。例えば　マップの上から東京エリアのどうこかに事故が起ってるのを監視できるシステムです。
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
-                    <Chip
-                      label="PYTHON"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
                     <Chip
                       label="HTML"
                       size="small"
@@ -138,7 +140,7 @@ const Experiences = () => {
                       }}
                     />
                     <Chip
-                      label="Bootstrap"
+                      label="MySQL"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",
@@ -169,7 +171,7 @@ const Experiences = () => {
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
-                      label="PYTHON"
+                      label="JAVA"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",
@@ -206,6 +208,15 @@ const Experiences = () => {
                     />
                     <Chip
                       label="Bootstrap"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
+                    <Chip
+                      label="MySQL"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",
@@ -279,6 +290,15 @@ const Experiences = () => {
                         color: "#FF8D57",
                       }}
                     />
+                    <Chip
+                      label="PostgreSQL"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -301,43 +321,7 @@ const Experiences = () => {
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
-                      label="PYTHON"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
-                    <Chip
-                      label="HTML"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
-                    <Chip
-                      label="CSS"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
-                    <Chip
-                      label="Javascript"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
-                    <Chip
-                      label="Bootstrap"
+                      label="Excel VBA"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",
@@ -367,7 +351,7 @@ const Experiences = () => {
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
                     <Chip
-                      label="PYTHON"
+                      label="JAVA"
                       size="small"
                       sx={{
                         backgroundColor: "#FFCDB4",
@@ -411,6 +395,15 @@ const Experiences = () => {
                         color: "#FF8D57",
                       }}
                     />
+                    <Chip
+                      label="MySQL"
+                      size="small"
+                      sx={{
+                        backgroundColor: "#FFCDB4",
+                        padding: 2,
+                        color: "#FF8D57",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -432,15 +425,6 @@ const Experiences = () => {
                     ホームページ開発
                   </div>
                   <div className="flex flex-row gap-x-2 mt-3">
-                    <Chip
-                      label="PYTHON"
-                      size="small"
-                      sx={{
-                        backgroundColor: "#FFCDB4",
-                        padding: 2,
-                        color: "#FF8D57",
-                      }}
-                    />
                     <Chip
                       label="HTML"
                       size="small"
