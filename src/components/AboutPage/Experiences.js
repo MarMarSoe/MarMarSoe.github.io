@@ -103,7 +103,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">6ヶ月</div>
+                <div className="w-[210px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     Incidence Monitoring System
@@ -160,7 +160,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">5ヶ月</div>
+                <div className="w-[210px]">5ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     PC予約管理システム
@@ -236,7 +236,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">11ヶ月</div>
+                <div className="w-[210px]">11ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     ファイバーケーブルを 構築材料情報管理開発
@@ -311,7 +311,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">4ヶ月</div>
+                <div className="w-[210px]">4ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     Chikyoku Tool 開発
@@ -341,7 +341,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">6ヶ月</div>
+                <div className="w-[210px]">6ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     ビル管理システム
@@ -416,7 +416,7 @@ const Experiences = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="flex flex-row gap-x-10">
-                <div className="w-[260px]">2ヶ月</div>
+                <div className="w-[210px]">2ヶ月</div>
                 <div className="flex flex-col justify-start">
                   <div className="text-orange-500 text-2xl">
                     社内のホームページ開 発
