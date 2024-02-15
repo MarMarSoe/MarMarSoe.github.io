@@ -20,8 +20,7 @@ const ContactForm = () => {
     },
   });
   const submitHandler = (data) => {
-    // data = JSON.stringify(data);
-   alert(JSON.stringify(data));
+   console.log(JSON.stringify(data));
    reset();
   };
   return (
