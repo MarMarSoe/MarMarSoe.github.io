@@ -1,20 +1,22 @@
 import Button from "@mui/material/Button";
 import Profile from "../../assets/profile.png";
 import HomePageCss from "./HomePage.module.css";
+import Resume from "../../../src/resume/MARMARSOE/履歴書―マーマ―ソ―.pdf";
+import { Link } from "react-router-dom";
 
 const Content = (props) => {
   return (
     <div className="container flex flex-row justify-between mt-10 mx-auto">
-      <div className="flex flex-col justify-start items-start self-center w-[400px] text-lg">
-        <div className="font-bold text-xl">
+      <div className="flex flex-col justify-start items-start self-center w-[600px] text-lg">
+        <div className="font-semibold text-4xl">
           Hi there! <span className="text-orange-600">Minglabar </span>
         </div>
-        <div className="font-bold text-xl">
+        <div className="font-semibold text-4xl">
           I'm <span className="text-orange-600">Mar Mar Soe</span>, Software
           Engineer with over 5 years experience.
         </div>
 
-        <div className="mt-10 text-pretty">
+        <div className="mt-4 text-2xl font-light">
           Passionate to create beafuiful and enjoyable web apps.I'm currently
           working in Tokyo, Japan.
         </div>
@@ -22,25 +24,32 @@ const Content = (props) => {
           <Button
             variant="contained"
             color="warning"
+            href={Resume}
             sx={{
-              fontSize: 16,
+              fontSize: 24,
+              fontWeight: 400,
               textTransform: "capitalize",
-              width: 100,
+              width: 181,
+              height: 64,
             }}
           >
             Resume
           </Button>
-          <Button
-            variant="outlined"
-            color="warning"
-            sx={{
-              fontSize: 16,
-              textTransform: "capitalize",
-              width: 100,
-            }}
-          >
-            About
-          </Button>
+          <Link to="/about">
+            <Button
+              variant="outlined"
+              color="warning"
+              sx={{
+                fontSize: 24,
+                fontWeight: 400,
+                textTransform: "capitalize",
+                width: 181,
+                height: 64,
+              }}
+            >
+              About
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -48,7 +57,7 @@ const Content = (props) => {
         <img
           src={Profile}
           alt="my-profile"
-          className={`w-full h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
+          className={`w-[600px] h-[400px] rounded-lg profilepath ${HomePageCss.profilepath}`}
         />
       </div>
     </div>

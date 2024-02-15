@@ -5,10 +5,10 @@ const ContactForm = () => {
   return (
     <div className="container flex justify-around mx-auto font-light">
       <div className="flex flex-col p-4">
-        <div className="font-bold text-lg text-center text-orange-600">
+        <div className="font-semibold text-orange-600 text-3xl text-center">
           Get In Touch
         </div>
-        <div className="mt-5 gap-y-3 flex flex-col justify-center items-center">
+        <div className="mt-11 gap-y-3 flex flex-col justify-center items-center">
           <div className="flex flex-row gap-x-12">
             <div className="flex flex-col ">
               <label>First Name</label>
@@ -69,7 +69,12 @@ const ContactForm = () => {
                 variant="outlined"
                 size="medium"
                 color="warning"
-                sx={{ width: 100, textTransform: "capitalize" }}
+                sx={{
+                  width: 150,
+                  height: 50,
+                  textTransform: "capitalize",
+                  fontSize: 18,
+                }}
               >
                 Clear
               </Button>
@@ -77,7 +82,12 @@ const ContactForm = () => {
                 variant="contained"
                 size="medium"
                 color="warning"
-                sx={{ width: 100, textTransform: "capitalize" }}
+                sx={{
+                  width: 150,
+                  height: 50,
+                  textTransform: "capitalize",
+                  fontSize: 18,
+                }}
               >
                 Submit
               </Button>
